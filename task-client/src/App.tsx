@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Task } from './types';
 
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://task-api-javq5m0lt-noorulain45s-projects.vercel.app/api/tasks";
 
 const fontLink = document.createElement('link');
 fontLink.href = 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Jost:wght@300;400;500;600&display=swap';
